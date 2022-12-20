@@ -11,6 +11,10 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
+# customized gems
+gem 'eventmachine', '1.2.7', git: 'https://github.com/eventmachine/eventmachine.git', tag: 'v1.2.7'
+gem 'tzinfo-data'
+
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
